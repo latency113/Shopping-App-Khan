@@ -3,9 +3,9 @@ import React from 'react'
 
 const UserProfile = () => {
   return (
-    <View>
-      <Text>UserProfile</Text>
-      <Image source={{uri:'https://m.media-amazon.com/images/I/71AcGKTe9+L._AC_SL1500_.jpg'}}/>
+    <View className='flex-1 items-center mt-5'>
+      <Image source={{uri:'https://tse4.mm.bing.net/th/id/OIP.T3-SHAUUu7pdzrIwuNGkdgHaE-?rs=1&pid=ImgDetMain&o=7&rm=3'}} className='bg-gray-100 h-44 w-44 overflow-hidden rounded-full'/>
+      <Text>Pikachu EIEI</Text>
     </View>
   )
 }
